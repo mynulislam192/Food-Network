@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+/*------for all flex------*/
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+/*------Header ------*/
+
+.header {
+    width: 50%;
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+    color: #FD4F30;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #FD4F30;
+    text-decoration: none;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+
+/*--- top section------*/
+
+.top-section {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.tomato-color {
+    color: #FB8E49;
+}
+
+.centre {
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+.about {
+    margin-top: 150px;
+    margin-left: 160px;
+}
+
+.top-half {
+    width: 80%;
+    padding: 2%;
+}
+
+.top-half img {
+    width: 100%;
+}
+
+.link-button {
+    background-image: linear-gradient(to right, #FB8E49, #FD4F30);
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 40px;
+}
+
+h1 {
+    color: #565656;
+    font-size: 40px;
+}
+
+p {
+    color: #969696;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+/*--- about section------*/
+
+.about-section {
+    background-image: url(images/background-img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-half {
+    width: 40%;
+    padding: 2%;
+}
+
+.about-half img {
+    width: 60%;
+    padding-left: 150px;
+}
+
+
+/*--- my recpie section------*/
+
+.box {
+    width: 337px;
+    height: 500px;
+    margin-left: 100px;
+    border-radius: 30px;
+    border: 12px solid white;
+    box-shadow: 0px 0px 10px #c2c2c2;
+    padding: 5px;
+}
+
+.box img {
+    width: 337px;
+    height: 256px;
+}
+
+.box p {
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+
+/*--- time  and adress section------*/
+
+.schedule {
+    background-image: url(images/background-img-3.jpg)
+}
+
+.time {
+    width: 25%;
+    margin-left: 100px;
+}
+
+.soup img {
+    width: 337px;
+    height: 256px;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.thikana {
+    width: 25%;
+    margin-left: 200px;
+}
+
+.address {
+    margin-left: 20%;
+    margin-right: 350px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px #c2c2c2;
+}
+
+
+/*--- follower section------*/
+
+.text {
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.text h1,
+p {
+    color: black;
+}
+
+
+/*--- footer section------*/
+
+.footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.footer p {
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+}
