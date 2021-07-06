@@ -143,7 +143,7 @@ p {
     color: black;
 }
 
-.text-center {
+#text-center {
     text-align: center;
     margin-left: 350px;
     margin-right: 350px;
@@ -199,18 +199,18 @@ p {
 
 /*--- footer section------*/
 
-.footer {
+#footer {
     background-color: black;
     padding: 10px;
     text-align: center;
 }
 
-.footer h1 {
+#footer h1 {
     font-weight: 700;
     font-size: 25px;
 }
 
-.footer p {
+#footer p {
     font-weight: 200;
     font-size: 15px;
     color: white;
